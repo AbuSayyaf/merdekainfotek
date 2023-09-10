@@ -1,6 +1,7 @@
 'use client'
 import { motion } from 'framer-motion'
 import { fadeIn } from '@/util/variants'
+import Link from 'next/link'
 function Landing() {
   return (
     <section
@@ -28,16 +29,17 @@ function Landing() {
           We design, build, and deploy for enterprises
         </motion.p>
       </header>
-      <motion.a
-        variants={fadeIn('up', 0.1)}
-        initial="hidden"
-        animate="show"
-        exit="hidden"
-        className="bg-white text-black text-lg font-medium rounded-md px-7 py-1 cursor-pointer laptop:px-10 laptop:py-2 hover:text-white hover:bg-orange-500"
-        href="/contact"
-      >
-        Let&apos;s Work
-      </motion.a>
+      <Link href="/contact">
+        <motion.a
+          variants={fadeIn('up', 0.1)}
+          initial="hidden"
+          animate="show"
+          exit="hidden"
+          className="bg-white text-black text-lg font-medium rounded-md px-7 py-1 cursor-pointer laptop:px-10 laptop:py-2 hover:text-white hover:bg-orange-500"
+        >
+          Let&apos;s Work
+        </motion.a>
+      </Link>
     </section>
   )
 }
