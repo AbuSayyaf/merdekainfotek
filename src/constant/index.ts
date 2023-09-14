@@ -60,56 +60,56 @@ export const team: Team[] = [
   {
     id: 1,
     image:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgEs46kqkF1xGSJbgA2BJPhDpAM0MUXFab7qkFiQCKIyCoagwj',
+      '/avatar/abu.png',
     name: 'Abu Bakr Siddiq',
     position: 'CEO',
   },
   {
     id: 2,
     image:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgEs46kqkF1xGSJbgA2BJPhDpAM0MUXFab7qkFiQCKIyCoagwj',
+      '/avatar/abel.jpg',
     name: 'Sharhabeel Morad',
     position: 'Project Manager/FE',
   },
   {
     id: 3,
     image:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgEs46kqkF1xGSJbgA2BJPhDpAM0MUXFab7qkFiQCKIyCoagwj',
+      '/avatar/basam.jpg',
     name: 'Basam Serad',
-    position: 'Full-stack Developer',
+    position: 'FS Dev/Project Lead',
   },
   {
     id: 4,
     image:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgEs46kqkF1xGSJbgA2BJPhDpAM0MUXFab7qkFiQCKIyCoagwj',
+      '/avatar/nash.jpg',
     name: 'Nashruddin Habibon',
-    position: 'Full-stack Developer',
+    position: 'Fullstack Developer',
   },
   {
     id: 7,
     image:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgEs46kqkF1xGSJbgA2BJPhDpAM0MUXFab7qkFiQCKIyCoagwj',
+      '/avatar/al.png',
     name: 'Al Nadzmer Mabbol Jamil',
-    position: 'Full-stack Developer/BA',
+    position: 'Fullstack Developer/BA',
   },
   {
     id: 6,
     image:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgEs46kqkF1xGSJbgA2BJPhDpAM0MUXFab7qkFiQCKIyCoagwj',
-    name: 'Amir Duriun',
-    position: 'Full-stack Developer',
+      '/avatar/amir.png',
+    name: 'Amir Duruin',
+    position: 'Fullstack Developer',
   },
   {
     id: 5,
     image:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgEs46kqkF1xGSJbgA2BJPhDpAM0MUXFab7qkFiQCKIyCoagwj',
+      '/avatar/dennis.jpg',
     name: 'Dianne Cabeliza',
     position: 'UI/UX',
   },
   {
     id: 8,
     image:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgEs46kqkF1xGSJbgA2BJPhDpAM0MUXFab7qkFiQCKIyCoagwj',
+      '/avatar/kaye.png',
     name: 'Kate Bautista',
     position: 'UI/UX',
   },
